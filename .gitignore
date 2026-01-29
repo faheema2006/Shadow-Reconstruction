@@ -1,0 +1,25 @@
+# Ignore the virtual environment
+.venv/
+venv/
+env/
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
+
+# Ignore large video files (Don't upload these!)
+*.mp4
+*.avi
+*.mov
+
+# Ignore the CSV database (keep data local)
+*.csv
+
+# Ignore VS Code settings
+.vscode/
+.venv/
+dataset/
+gei_output/
+*.h5
+*.pt
+__pycache__/
